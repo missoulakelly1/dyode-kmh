@@ -1,0 +1,101 @@
+@import 'variables';
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+/**custom**/
+
+.accent-font {
+    font-family: $font-family-decorative;
+}
+
+.alert {
+    background-color: $secondary;
+    margin-bottom: 0;
+    border: none;
+    text-align: center;
+    .alert-link {
+    color: $light;
+    font-weight: $font-weight-light;
+}
+}
+
+.navbar {
+    background-color: $primary;
+   .navbar-toggler {
+        color: $light;
+        border: none;
+    }
+}
+
+.carousel-caption {
+    top: 50%;
+  transform: translateY(-50%);
+  h1 {
+      font-family: $font-family-decorative;
+  }
+  .button {
+      color: $secondary;
+  }
+}
+
+.album {
+    .card-body {
+        background-color: $primary;
+        text-align: center;
+        .card-text {
+            font-family: $font-family-decorative;
+            color: $light;
+            font-size: 2.5rem;
+            
+        }
+    }
+}
+
+.newProduct {
+.navArrow {
+    float: left;
+}
+.card {
+    border: none;
+    .card-body {
+        text-align: center;
+        .card-title {
+            margin-bottom: 0.25rem;
+        }
+        .card-text {
+            color: grey;
+        }
+        .card-link {
+            font-family: $font-family-decorative;
+        }
+    }
+}
+}
+
+.instagram {
+    h3 {
+        font-family: $font-family-decorative;
+    }
+}
+
+.newsletter {
+    background-color: $primary;
+    img {
+        display: inline-block;
+        float: left;
+    }
+    h3 {
+        font-family: $font-family-decorative;
+        color: $light;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+    }
+    span {
+        color: $light;
+    }
+}
+
+.footer {
+    background-color: $secondary;
+    color: $light;
+}
